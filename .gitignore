@@ -1,0 +1,15 @@
+# зависимости окружения (venv)
+.venv/
+venv/
+
+# секреты
+.env
+
+# сертификаты НУЦ Минцифры — не бинарники в git, качаются скриптом scripts/fetch_certs.sh
+certs/
+
+# мусор Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.DS_Store
